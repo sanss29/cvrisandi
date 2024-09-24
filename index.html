@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -7,7 +6,8 @@
     <title>CV RISANDI</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
-        img { max-width: 100px; border: 1px solid #ddd; }
+        .container { display: flex; align-items: center; }
+        img { max-width: 100px; border: 1px solid #ddd; margin-right: 20px; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th, td { border: 1px solid #ddd; padding: 8px; }
         th { background-color: #f2f2f2; }
@@ -16,26 +16,52 @@
 <body>
 
     <h1>CURRICULUM VITAE</h1>
-    <img src="foto.jpg" alt="Foto Saya">
-    
-    <h2>Biodata Singkat</h2>
-    <p>Nama: RISANDI PUTRA BASON</p>
-    <p>Umur: 19 Tahun</p>
-    <p>Email: basonrisandi@gmail.com</p>
-  
+    <div class="container">
+        <img src="foto.jpg" alt="Foto Saya">
+        <div>
+            <h2>Biodata Singkat</h2>
+            <p>Nama: RISANDI PUTRA BASON</p>
+            <p>Umur: 19 Tahun</p>
+            <p>Email: basonrisandi@gmail.com</p>
+        </div>
+    </div>
 
     <h2>Riwayat Pendidikan</h2>
     <table>
         <tr>
-            <th>2022</th>
-            <th>SMK TELKOM JAKARTA</th>
-            <th>TEKNIK KOMPUTER JARINGAN</th>
+            <th>Tahun</th>
+            <th>Institusi</th>
+            <th>Program Studi</th>
+        </tr>
+        <tr>
+            <td>2019-2022</td>
+            <td>SMK TELKOM JAKARTA</td>
+            <td>TEKNIK KOMPUTER JARINGAN</td>
+        </tr>
+        <tr>
+            <td>2022-SEKARANG</td>
+            <td>TELKOM UNIVERSITY</td>
+            <td>SISTEM INFORMASI</td>
         </tr>
         <!-- Tambahkan lebih banyak baris sesuai kebutuhan -->
     </table>
 
+    <h2>Pengalaman Kerja</h2>
+    <table>
+        <tr>
+            <th>Tahun</th>
+            <th>Perusahaan</th>
+            <th>Jabatan</th>
+        </tr>
+        <tr>
+            <td>2022-SEKARANG</td>
+            <td>PT NAP INFO LINTAS NUSA</td>
+            <td>NETWORK OPERATION</td>
+        </tr>
+        </table>
+
     <h2>Tentang Saya</h2>
-    <p>Saya adalah seorang mahasiswa semester 5 di telkom university kampus jakarta, dan juga sebagai staff di salah satu perusahaan ISP di jakarta.</p>
+    <p>Saya adalah seorang mahasiswa semester 5 di Telkom University kampus Jakarta, dan juga sebagai staff di salah satu perusahaan ISP di Jakarta. </p>
 
 </body>
 </html>
